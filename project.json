@@ -1,0 +1,72 @@
+{
+  "name": "Test_Manager_Demo_QTest",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[23.4.2]",
+    "UiPath.Testing.Activities": "[23.4.0]",
+    "UiPath.UIAutomation.Activities": "[23.4.4]",
+    "UiPath.WebAPI.Activities": "[1.16.2]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.4.1.0",
+  "projectVersion": "1.0.137813626",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a6f5e386-f89f-4e8d-9624-fa5e36820406",
+        "testCaseType": "TestCase",
+        "fileName": "UiBank LogIn.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "0e21747a-2e80-4330-b8ef-1a7a9bb95115",
+        "testCaseType": "TestCase",
+        "fileName": "Click Apply Loan.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ff6d0947-a844-4e95-95c0-a8eff12813f5",
+        "dataVariationFilePath": ".variations\\test data_Sheet1.json",
+        "testCaseType": "TestCase",
+        "fileName": "Apply Loan.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
